@@ -1,5 +1,5 @@
-#ifndef MESSAGE_H
-#define MESSAGE_H
+#ifndef LIB_MESSAGE_H
+#define LIB_MESSAGE_H
 
 #include <string>
 
@@ -7,4 +7,4 @@ namespace lib {
 std::string get_message();
 }
 
-#endif /* end of include guard: MESSAGE_H */
+#endif  // LIB_MESSAGE_H

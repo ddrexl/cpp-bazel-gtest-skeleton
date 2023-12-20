@@ -9,5 +9,5 @@ using testing::Eq;
 
 TEST(message_test, content) { ASSERT_THAT(get_message(), Eq("Hello World!")); }
 
-}  // namespace
-}  // namespace lib
+} // namespace
+} // namespace lib

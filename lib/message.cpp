@@ -1,7 +1,18 @@
 #include "lib/message.h"
+#include <sched.h>
 
 namespace lib {
 
-std::string get_message() { return "Hello World!"; }
+struct Foo {
+  int bar;
+};
 
-}  // namespace lib
+std::string get_message() {
+  Foo foo{};
+
+  foo.bar = 2;
+
+  return "Hello World!";
+}
+
+} // namespace lib
